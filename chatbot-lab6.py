@@ -1,7 +1,7 @@
 from telegram import Update
 from telegram.ext import (Updater, CommandHandler, MessageHandler, CallbackContext)
 from telegram.ext.filters import Filters
-from ChatGPT_HKBU import HKBU_ChatGPT  # 导入你的 ChatGPT 类
+from ChatGPT_HKBU import HKBU_ChatGPT
 import configparser
 import logging
 import redis
