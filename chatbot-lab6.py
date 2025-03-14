@@ -28,10 +28,7 @@ def main():
     logging.basicConfig(format='%(asctime)s-%(name)s-%(levelname)s -%(message)s',
                         level=logging.INFO)
 
-    # Register a dispatcher to handle message
-    # Disable echo handler since we are using ChatGPT now
-    # echo_handler = MessageHandler(Filters.text & (~Filters.command), echo)
-    # dispatcher.add_handler(echo_handler)
+
 
     # Register the dispatcher for ChatGPT
     global chatgpt
